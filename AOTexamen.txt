@@ -1,0 +1,70 @@
+    1  history -w
+    2  git status
+    3  history -w
+    4  cd eclipse-workspace2/
+    5  cd AllbaOrtegaTrindad-Factorial/
+    6  git init
+    7  git add .
+    8  git commit -m "Versión A (commit A) Rama master"
+    9  git remote add origin https://github.com/aorttri2612/DAM2526_AOT_Factorial.git 
+   10  git push -u origin master
+   11  git add .
+   12  git commit -m "Versión B (commit B) rama master"
+   13  git push -u origin master
+   14  git push -u origin master
+   15  git push --help
+   16  gitt pull
+   17  git pull
+   18  cd eclipse-workspace2/
+   19  cd AllbaOrtegaTrindad-Factorial/
+   20  git init
+   21  nano .gitignore
+   22  git add .
+   23  git commit -m "commit b"
+   24  git push -u origin master
+   25  git add .
+   26  git commit -m "commit c"
+   27  git push -u origin master
+   28  git switch -c factorial_recursivo 
+   29  git add .
+   30  git commit  -m "commit F1"
+   31  git add .
+   32  git commit -m "commit F2"
+   33  git add .
+   34  git commit -m "commit F3"
+   35  git log --oneline --graph --all
+   36  git branch
+   37  git log --oneline --graph
+   38  git switch master
+   39  git add .
+   40  git commit -m "Versión D (commit D)"
+   41  git push -u origin master 
+   42  git add .
+   43  git commit -m "Versión E (commit E)"
+   44  git push -u origin master
+   45  git add .
+   46  git commit -m "Versión F (commit F)"
+   47  git push -u origin master
+   48  git log --oneline --graph
+   49  git log --oneline --graph --all
+   50  git switch factorial-recursivo
+   51  git switch factorial_recursivo
+   52  git rebase master
+   53  git status
+   54  nano  . gitignore
+   55  git add .
+   56  git rebase --continue
+   57  nanno .gitignore
+   58  nano .gitignore
+   59  git rebase --continue
+   60  git add .
+   61  git rebase --continue
+   62  nano .gitignore
+   63  nano .gitignore
+   64  git add .
+   65  git rebase --continue
+   66  git push -u origin factorial_recursivo
+   67  git switch factorial_recursivo
+   68  git rebase --continue
+   69  git rebase --quit
+   70  history > AOTexamen.txt
