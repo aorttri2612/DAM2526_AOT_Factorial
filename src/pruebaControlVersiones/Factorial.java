@@ -18,7 +18,11 @@ public class Factorial {
 		}
 		System.out.println(pedirNumero());
 		sc.close();
+<<<<<<< HEAD
 		System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
+=======
+		System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialRec(num));
+>>>>>>> 5968478 (commit F2)
 	}
 
 	private static int pedirNumero() {
@@ -48,6 +52,20 @@ public class Factorial {
 			;
 		}
 
+	}
+
+	/**
+	 * Calcula el factorial de un número utilizando un enfoque recursivo.
+	 *
+	 * @param n Número entero del que se quiere obtener el factorial.
+	 * @return Factorial de n, calculado mediante recursividad.
+	 */
+	private static long factorialRec(int n) {
+		if (n == 0 || n == 1) {
+			return 1;
+		}
+
+		return n * factorialRec(n - 1);
 	}
 
 }
