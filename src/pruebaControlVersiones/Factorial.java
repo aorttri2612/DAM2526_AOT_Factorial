@@ -18,7 +18,7 @@ public class Factorial {
 		}
 		System.out.println(pedirNumero());
 		sc.close();
-
+		System.out.println("RESULTADO - En versiones posteriores se calculará el factorial del número " + num);
 	}
 
 	private static int pedirNumero() {
