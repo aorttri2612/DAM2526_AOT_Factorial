@@ -18,7 +18,11 @@ public class Factorial {
 		}
 		System.out.println(pedirNumero());
 		sc.close();
+<<<<<<< HEAD
 		System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
+=======
+		System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialRec(num));
+>>>>>>> 5968478 (commit F2)
 	}
 
 	private static int pedirNumero() {
