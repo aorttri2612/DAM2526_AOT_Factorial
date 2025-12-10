@@ -18,6 +18,7 @@ public class Factorial {
 		}
 		System.out.println(pedirNumero());
 		sc.close();
+
 	}
 
 	private static int pedirNumero() {
