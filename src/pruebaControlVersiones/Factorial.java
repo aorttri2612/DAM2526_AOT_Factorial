@@ -41,4 +41,12 @@ public class Factorial {
 		return num;
 	}
 
+	private static long factorialBucle(int n) {
+		// TODO: crea tu el contenido de esta función... si eres capaz
+		// No soy capaz al final si puedo te lo hago
+		if (n = !0) {
+			;
+		}
+	}
+
 }
